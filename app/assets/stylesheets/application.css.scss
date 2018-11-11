@@ -30,9 +30,14 @@
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
-
+// Nav Styles
 .navbar {
     border: none;
+}
+
+.navbar-brand {
+    font-famity: 'Open Sans', sans-serif;
+    font-weight: 800;
 }
 
 // Navigation bars and links styles
