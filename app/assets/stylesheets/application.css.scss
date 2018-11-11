@@ -17,13 +17,14 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+// Background Gradient
 .navbar, .home-callout {
     /* Gradient provided by https://twitter.com/_ighosh */ 
     background: #F1F2B5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #135058, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #135058, #F1F2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+// Typography styles
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
@@ -32,24 +33,16 @@ h1, h2, h3 {
     border: none;
 }
 
-.navbar-default .navbar-brand {
-    color: white;
-}
-
+// Navigation bars and links styles
+.navbar-default .navbar-brand,  
 .navbar-default .navbar-nav > li > a {
-    color:white;
-}
-
-.navbar-default .navbar-brand:hover {
     color: white;
-    opacity: 0.75;
+    &:hover {
+        color:white;
+        opacity: 0.75;
+    }
 }
-
-.navbar-default .navbar-nav > li > a:hover {
-    color:white;
-    opacity: 0.75;
-}
-
+// Home Page Style here
 .home-callout {
     color: black;
     margin-top: -20px;
